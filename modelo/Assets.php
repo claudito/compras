@@ -32,7 +32,9 @@ echo '
 <style>
 body{
 font-family: "Montserrat", sans-serif;
+font-size:12px;
 }
+
 </style>
 <script>
 
@@ -61,8 +63,8 @@ echo '<!-- Datatables -->
 function sweetalert()
 {
 echo '  
-<script src="http://t4t5.github.io/sweetalert/dist/sweetalert-dev.js"></script>
-<link rel="stylesheet" href="http://t4t5.github.io/sweetalert/dist/sweetalert.css">
+<script src="'.PATH.'assets/sweetalert/sweetalert.js"></script>
+<link rel="stylesheet" href="'.PATH.'assets/sweetalert/sweetalert.css">
 ';
 }
 
