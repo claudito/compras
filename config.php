@@ -3,13 +3,13 @@
 date_default_timezone_set('America/Lima');
 
 #define("PATH", "http://".$_SERVER['SERVER_NAME'].substr(dirname(__FILE__).DIRECTORY_SEPARATOR,strlen($_SERVER['DOCUMENT_ROOT'])));
-define("PATH","http://192.168.1.15/dev/haroing/");
-define("FOLDER","/dev/haroing/");
-define("FOLDER_FILE","/var/www/dev/haroing/upload/articulo_file/");
+define("PATH","http://perutec.com.pe/compras/");
+define("FOLDER","/compras/");
+define("FOLDER_FILE","/var/www/html/compras/upload/articulo_file/");
 define("RUTA", dirname(__FILE__).DIRECTORY_SEPARATOR);
 define("SERVER","localhost");
 define("USER", "root");
-define("PASS", "perutec");
+define("PASS", "userperutecdb");
 define("BD", "haroing_db");
 define("FECHA",'Y-m-d');
 define("MAX_FILE_SIZE", 5000000);
